@@ -18,8 +18,7 @@
 ### O Desafio
 
 Criar um conversor de moedas consumindo dados da API e desenvolver o layout utilizando o framework Bulma.
-<br>
-Site da API: [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
+
 
 ### Screenshot
 
@@ -30,6 +29,8 @@ Site da API: [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
 ### Links
 
 - Live Site URL: [Live Site](https://thiagogalhardo.github.io/conversor-de-moedas/)
+<br>
+- Site da API: [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
 
 ### Tecnologias:
 
