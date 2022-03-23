@@ -23,7 +23,7 @@ Criar um conversor de moedas consumindo dados da API e desenvolver o layout util
 ### Screenshot
 
 <h1 align="center">
-<img alt="conversor de moedas" title="Screenshot" src="screenshot-conversor-moedas.png" height="450" />
+<img alt="conversor de moedas" title="Screenshot" src="screenshot.png" height="450" />
 </h1>
 
 ### Links
