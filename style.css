@@ -1,0 +1,51 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+.box {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: none;
+}
+
+#error {
+    background-color: rgba(241, 70, 104, 0.8);
+    display: none;
+}
+
+#real {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: white;
+}
+
+#real::placeholder {
+    color: white;
+}
+
+.hero-foot {
+    background-color: rgba(241, 241, 241, 0.2);
+}
+
+@media (max-width: 500px) {
+    .container.has-text-centered.mt-6 {
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0 20px 0 20px;
+    }
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}

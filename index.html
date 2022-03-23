@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+</head>
+
+<body>
+
+    <section class="hero is-link is-bold is-fullheight">
+
+        <div class="container has-text-centered mt-6 ">
+            <div class="columns has-text-centered mt-6">
+                <div class="column is-12">
+                    <h1 class="title is-1 m-5">Conversor <br>Real Brasileiro</h1>
+                    <input class="input is-info is-medium  has-text-centered has-text-white  " type="number" placeholder="BRL" id="real">
+                    <button class="button is-info has-text-weight-bold is-large  mt-4 btn" id="btn">Converter</button>
+                </div>
+            </div>
+
+
+            <div class="container has-text-centered m-6">
+                <div class="box" id="box-result">
+                    <div class="level">
+                        <div class="level-item">
+                            <div class="content">
+                                <p class="title mb-4" id="dolar"> 00 </p>
+                                <p class="subtitle is-5 has-text-weight-light"> Dolar </p>
+                            </div>
+                        </div>
+                        <div class="level-item pl-4 pr-4">
+                            <div class="content">
+                                <p class="title  mb-4" id="euro"> 00 </p>
+                                <p class="subtitle is-5 has-text-weight-light"> Euro </p>
+                            </div>
+                        </div>
+                        <div class="level-item">
+                            <div class="content">
+                                <p class="title mb-4" id="libra"> 00 </p>
+                                <p class="subtitle is-5 has-text-weight-light "> Libra </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns is-centered">
+                    <div class="column is-12">
+                        <div class="container has-text-centered ">
+                            <div class="box" id="error">
+                                <div>
+                                    <p class="title is-5 has-text-centered">Informe um valor válido para conversão!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="hero-foot has-text-centered">
+            <div class="">
+                <p class="subtitle p-2">Feito com 💜 por Thiago Galhardo </p>
+            </div>
+        </footer>
+
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
