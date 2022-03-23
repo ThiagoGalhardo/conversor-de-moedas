@@ -1,4 +1,4 @@
-<h1 align="center">Conversor de moedas"</h1>
+<h1 align="center">Conversor de moedas</h1>
 
 <p align="center">
  <a href="#desafio">Desafio</a> •
@@ -17,7 +17,8 @@
 
 ### O Desafio
 
-Criar um conversor de moedas consumindo dados da API e desenvolver o layout utilizando o framework Bulma (https://docs.awesomeapi.com.br/api-de-moedas)
+Criar um conversor de moedas consumindo dados da API e desenvolver o layout utilizando o framework Bulma 
+Site da API: [AwesomeAPI] (https://docs.awesomeapi.com.br/api-de-moedas)
 
 ### Screenshot
 
